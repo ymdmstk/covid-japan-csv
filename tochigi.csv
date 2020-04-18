@@ -1,0 +1,46 @@
+都道府県症例番号,公表日,居住市区町村,年代,性別,退院済ﾌﾗｸﾞ,退院日,情報源1
+9-1,2020/02/22,栃木県 (県南健康福祉センター管内),60 - 69,女性,1,2020/03/27,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-2,2020/03/05,栃木県 (県南健康福祉センター管内),30 - 39,女性,1,2020/03/12,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-3,2020/03/18,宇都宮市,40 - 49,女性,1,2020/04/01,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-4,2020/03/20,栃木県 (県南健康福祉センター管内),50 - 59,男性,1,2020/04/03,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-5,2020/03/24,フィリピン (帰省先: 県南健康福祉センター管内),40 - 49,男性,1,2020/04/10,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-6,2020/03/24,栃木県 (安足健康福祉センター管内),70 - 79,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-7,2020/03/25,栃木県 (安足健康福祉センター管内),60 - 69,女性,1,2020/04/03,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-8,2020/03/25,栃木県 (県西健康福祉センター管内),50 - 59,男性,1,2020/04/11,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-9,2020/03/25,栃木県 (県西健康福祉センター管内),50 - 59,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-10,2020/03/25,栃木県 (県南健康福祉センター管内),40 - 49,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-11,2020/03/26,栃木県 (県南健康福祉センター管内),10 - 19,男性,1,2020/04/14,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-12,2020/03/29,"東京都 (滞在先: 安足健康福祉センター管内, 定期的に県南健康福祉センター管内の医療機関を受診)",60 - 69,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-13,2020/03/31,宇都宮市保健所管内,30 - 39,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/200331corona-13reime.pdf
+9-14,2020/03/31,栃木県 (県南健康福祉センター管内),50 - 59,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/200331corona-14reime.pdf
+9-15,2020/04/01,県外 (実家は宇都宮市、県外から宇都宮市に転入),20 - 29,男性,0,,https://www.city.utsunomiya.tochigi.jp/_res/projects/default_project/_page_/001/023/128/0401-2.pdf
+9-16,2020/04/01,宇都宮市,40 - 49,男性,0,,https://www.city.utsunomiya.tochigi.jp/_res/projects/default_project/_page_/001/023/128/0401-2.pdf
+9-17,2020/04/01,栃木県 (県南健康福祉センター管内),40 - 49,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/17reime.pdf
+9-18,2020/04/06,宇都宮市,30 - 39,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/20200407_hasseijyoukyou.pdf
+9-19,2020/04/06,宇都宮市,30 - 39,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/20200407_hasseijyoukyou.pdf
+9-20,2020/04/07,栃木市,20 - 29,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/20200407_hasseijyoukyou.pdf
+9-21,2020/04/07,宇都宮市,30 - 39,女性,0,,https://www.city.utsunomiya.tochigi.jp/_res/projects/default_project/_page_/001/023/128/0408.pdf
+9-22,2020/04/07,宇都宮市,40 - 49,男性,0,,https://www.city.utsunomiya.tochigi.jp/_res/projects/default_project/_page_/001/023/128/0408.pdf
+9-23,2020/04/08,足利市,40 - 49,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/23reime.pdf
+9-24,2020/04/08,佐野市,10 - 19,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/24reime.pdf
+9-25,2020/04/08,佐野市,20 - 29,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/25reime.pdf
+9-26,2020/04/08,下野市,30 - 39,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/26reime.pdf
+9-27,2020/04/08,宇都宮市,60 - 69,女性,0,,https://www.city.utsunomiya.tochigi.jp/_res/projects/default_project/_page_/001/023/128/0409-3.pdf
+9-28,2020/04/08,宇都宮市,30 - 39,女性,0,,https://www.city.utsunomiya.tochigi.jp/_res/projects/default_project/_page_/001/023/128/0409-3.pdf
+9-29,2020/04/09,鹿沼市,40 - 49,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/29reime.pdf
+9-30,2020/04/09,栃木市,70 - 79,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/30reime.pdf
+9-31,2020/04/09,那須塩原市,70 - 79,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/31reime.pdf
+9-32,2020/04/10,"県外（実家である県内14例目宅に帰省）
+",20 - 29,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/32reimepdf.pdf
+9-33,2020/04/11,那須塩原市,70 - 79,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/hasseiichiran_1.pdf
+9-34,2020/04/11,小山市,60 - 69,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/hasseiichiran_1.pdf
+9-35,2020/04/11,栃木市,40 - 49,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/hasseiichiran_1.pdf
+9-36,2020/04/13,栃木市,30 - 39,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/36reime.pdf
+9-37,2020/04/14,栃木市,60 - 69,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020414ichiran.pdf
+9-38,2020/04/14,宇都宮市,30 - 39,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020415hasseijyoukyouitiran.pdf
+9-39,2020/04/15,那須塩原市,60 - 69,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020415hasseijyoukyouitiran.pdf
+9-40,2020/04/15,宇都宮市,40 - 49,女性,0,,https://www.city.utsunomiya.tochigi.jp/_res/projects/default_project/_page_/001/023/128/0415-5.pdf
+9-41,2020/04/16,那須塩原市,50 - 59,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020416hasseizyoukyoitiran.pdf
+9-42,2020/04/16,栃木市,50 - 59,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020416hasseizyoukyoitiran.pdf
+9-43,2020/04/17,栃木市,50 - 59,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020417ichiran.pdf
+9-44,2020/04/17,那須塩原市,60 - 69,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020417ichiran.pdf

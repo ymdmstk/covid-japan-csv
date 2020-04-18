@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "csv": "^5.3.2",
     "github-download": "^0.5.0",
     "rimraf": "^3.0.2"
