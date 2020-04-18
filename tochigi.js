@@ -3,11 +3,12 @@ const fs = require('fs');
 const parse = require('csv-parse/lib/sync');
 const csv = require('csv');
 
-const url = 'https://docs.google.com/spreadsheets/d/1aCIRyol3UncEtstWhT_Yw3I8mCbvpGQU5_HUKB_0JFA/export?format=csv&gid=0';
+const URL = 'https://docs.google.com/spreadsheets/d/1aCIRyol3UncEtstWhT_Yw3I8mCbvpGQU5_HUKB_0JFA/export?format=csv&gid=0';
 const CSV_HEADER = ['都道府県症例番号', '公表日', '居住市区町村','年代','性別','退院済ﾌﾗｸﾞ','退院日','情報源1'];
 const AGE_TRANSLATE = {'10歳未満': '0 - 9', '10代': '10 - 19', '20代': '20 - 29', '30代': '30 - 39', '40代': '40 - 49', '50代': '50 - 59', '60代': '60 - 69', '70代': '70 - 79', '80代': '80 - 89', '90代': '90 -'}
 
-axios.get(url).then(response => {
+async function transform(){
+    const response = await axios.get(URL);
     const records = parse(response.data, {
         columns: true,
         from_line: 6,
@@ -30,7 +31,9 @@ axios.get(url).then(response => {
 
     csv.stringify(patients,(error,output)=>{
         fs.writeFile('tochigi.csv',output,(error)=>{
-            console.log('処理データをCSV出力しました。');
+            console.log('栃木県のCSVを出力しました。');
         })
     })     
-});
+};
+
+module.exports = {transform};
