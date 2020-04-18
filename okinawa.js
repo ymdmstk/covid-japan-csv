@@ -51,7 +51,7 @@ async function transform(){
             });
 
             csv.stringify(patients,(error,output)=>{
-                fs.writeFile('okinawa.csv',output,(error)=>{
+                fs.writeFile('output/okinawa.csv',output,(error)=>{
                     console.log('沖縄県のCSVを出力しました。');
                 })
             })     

@@ -26,7 +26,7 @@ function transform(){
         });
         
         csv.stringify(patients,(error,output)=>{
-            fs.writeFile('fukui.csv',output,(error)=>{
+            fs.writeFile('output/fukui.csv',output,(error)=>{
                 console.log('福井県のCSVを出力しました。');
             })
         })        

@@ -25,7 +25,7 @@ function transform(){
         });
         
         csv.stringify(patients,(error,output)=>{
-            fs.writeFile('yamanashi.csv',output,(error)=>{
+            fs.writeFile('output/yamanashi.csv',output,(error)=>{
                 console.log('山梨県のCSVを出力しました。');
             })
         })        

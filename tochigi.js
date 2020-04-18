@@ -30,7 +30,7 @@ async function transform(){
     });
 
     csv.stringify(patients,(error,output)=>{
-        fs.writeFile('tochigi.csv',output,(error)=>{
+        fs.writeFile('output/tochigi.csv',output,(error)=>{
             console.log('栃木県のCSVを出力しました。');
         })
     })     

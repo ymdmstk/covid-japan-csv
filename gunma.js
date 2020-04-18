@@ -26,7 +26,7 @@ function transform(){
         });
         
         csv.stringify(patients,(error,output)=>{
-            fs.writeFile('gunma.csv',output,(error)=>{
+            fs.writeFile('output/gunma.csv',output,(error)=>{
                 console.log('群馬県のCSVを出力しました。');
             })
         })        

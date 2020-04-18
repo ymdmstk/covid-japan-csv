@@ -24,7 +24,7 @@ function transform(){
         });
         
         csv.stringify(patients,(error,output)=>{
-            fs.writeFile('toyama.csv',output,(error)=>{
+            fs.writeFile('output/toyama.csv',output,(error)=>{
                 console.log('富山県のCSVを出力しました。');
             })
         })        
