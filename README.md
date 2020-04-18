@@ -1,7 +1,7 @@
 # covid-japan-csv
 
 '''
-$ npm run
+$ npm start
 '''
 
 CSVファイルをExcelやOpenOfficeなどで開いて、コピーしたいセル範囲を選択コピーし、
