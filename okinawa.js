@@ -28,7 +28,7 @@ async function transform(){
             const tmp_rows = text.split('\n');
             let rows = [];
             tmp_rows.forEach(row => {
-                if(row.match(/\d+[男性|女性]/g)){
+                if(row.match(/\d+\s*[男性|女性]/g)){
                     rows.push(row);
                 }else{
                     rows[rows.length - 1] = rows[rows.length - 1] + row;
@@ -37,8 +37,8 @@ async function transform(){
 
             let patients = [CSV_HEADER];
             rows.forEach(row => {
-                if(row.match(/\d+[男性|女性]/g)){
-                    let matches = row.match(/(\d+)(男性|女性)(\d+代)(\d+月\d+日|確認中)(\d+月\d+日|確認中)(.*市|.*管内|.*都)(.*)/i);
+                if(row.match(/\d+\s*[男性|女性]/g)){
+                    let matches = row.match(/(\d+)\s*(男性|女性)\s*(\d+代)\s*(\d+月\d+日|確認中)\s*(\d+月\d+日|確認中)\s*(.*市|.*管内|.*都)(.*)/i);
                     if(matches) {
                         matches.shift()
                         matches[0] = '47-' + matches[0];
@@ -58,5 +58,7 @@ async function transform(){
         })
     })
 }
+
+transform();
 
 module.exports = {transform};
