@@ -12,8 +12,8 @@ const CSV_HEADER = ['都道府県症例番号','公表日', '居住市区町村'
 async function transform(){
     const response = await axios.get(HTML_URL);
     const root = HTMLParser.parse(response.data);
-    // const trs = root.querySelectorAll('table')[2].querySelectorAll('tr');
-    const trs = root.querySelectorAll('table')[0].querySelectorAll('tr');
+    const trs = root.querySelectorAll('table')[2].querySelectorAll('tr');
+    // const trs = root.querySelectorAll('table')[0].querySelectorAll('tr');
 
     let patients = [];
     for(let i = 1; i<trs.length; i++){
@@ -50,5 +50,7 @@ async function transform(){
         })
     })     
 }
+
+transform()
 
 module.exports = {transform};
