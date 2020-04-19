@@ -8,7 +8,7 @@
 9-7,2020/03/25,栃木県 (安足健康福祉センター管内),60 - 69,女性,1,2020/04/03,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
 9-8,2020/03/25,栃木県 (県西健康福祉センター管内),50 - 59,男性,1,2020/04/11,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
 9-9,2020/03/25,栃木県 (県西健康福祉センター管内),50 - 59,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
-9-10,2020/03/25,栃木県 (県南健康福祉センター管内),40 - 49,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
+9-10,2020/03/25,栃木県 (県南健康福祉センター管内),40 - 49,男性,1,2020/04/18,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
 9-11,2020/03/26,栃木県 (県南健康福祉センター管内),10 - 19,男性,1,2020/04/14,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
 9-12,2020/03/29,"東京都 (滞在先: 安足健康福祉センター管内, 定期的に県南健康福祉センター管内の医療機関を受診)",60 - 69,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/coronakensahasseijyoukyou.html
 9-13,2020/03/31,宇都宮市保健所管内,30 - 39,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/200331corona-13reime.pdf
@@ -27,7 +27,7 @@
 9-26,2020/04/08,下野市,30 - 39,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/26reime.pdf
 9-27,2020/04/08,宇都宮市,60 - 69,女性,0,,https://www.city.utsunomiya.tochigi.jp/_res/projects/default_project/_page_/001/023/128/0409-3.pdf
 9-28,2020/04/08,宇都宮市,30 - 39,女性,0,,https://www.city.utsunomiya.tochigi.jp/_res/projects/default_project/_page_/001/023/128/0409-3.pdf
-9-29,2020/04/09,鹿沼市,40 - 49,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/29reime.pdf
+9-29,2020/04/09,鹿沼市,40 - 49,男性,1,2020/04/19,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/29reime.pdf
 9-30,2020/04/09,栃木市,70 - 79,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/30reime.pdf
 9-31,2020/04/09,那須塩原市,70 - 79,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/31reime.pdf
 9-32,2020/04/10,"県外（実家である県内14例目宅に帰省）
@@ -44,3 +44,5 @@
 9-42,2020/04/16,栃木市,50 - 59,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020416hasseizyoukyoitiran.pdf
 9-43,2020/04/17,栃木市,50 - 59,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020417ichiran.pdf
 9-44,2020/04/17,那須塩原市,60 - 69,男性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020417ichiran.pdf
+9-45,2020/04/19,栃木市,60 - 69,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020419ichiran.pdf
+9-46,2020/04/19,那須塩原市,60 - 69,女性,0,,http://www.pref.tochigi.lg.jp/e04/welfare/hoken-eisei/kansen/hp/documents/020419ichiran.pdf
