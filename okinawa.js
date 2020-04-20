@@ -9,11 +9,9 @@ const URL = 'https://www.pref.okinawa.lg.jp';
 const AGE_TRANSLATE = {'10歳未満': '0 - 9', '10代': '10 - 19', '20代': '20 - 29', '30代': '30 - 39', '40代': '40 - 49', '50代': '50 - 59', '60代': '60 - 69', '70代': '70 - 79', '80代': '80 - 89', '90代': '90 -'}
 const CSV_HEADER = ['都道府県症例番号','性別','年代','発症日','確定日', '居住市区町村','その他'];
 
-
-
 async function transform(){
     const response = await axios.get(HTML_URL);
-    const path = response.data.match(/a href="(.*\.pdf)"/i);
+    const path = response.data.match(/href="(.*\.pdf)"/i);
     const options = {
         directory: "./",
         filename: "okinawa.pdf"
@@ -38,7 +36,7 @@ async function transform(){
             let patients = [CSV_HEADER];
             rows.forEach(row => {
                 if(row.match(/\d+\s*[男性|女性]/g)){
-                    let matches = row.match(/(\d+)\s*(男性|女性)\s*(\d+代)\s*(\d+月\d+日|確認中)\s*(\d+月\d+日|確認中)\s*(.*市|.*管内|.*都)(.*)/i);
+                    let matches = row.match(/(\d+)\s*(男性|女性)\s*(\d+代)\s*(\d+月\d+日|\d+月初旬|確認中)\s*(\d+月\d+日|確認中)\s*(.*市|.*管内|.*府|.*都)(.*)/i);
                     if(matches) {
                         matches.shift()
                         matches[0] = '47-' + matches[0];
