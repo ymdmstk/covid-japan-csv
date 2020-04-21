@@ -21,6 +21,7 @@ Google SpreadSheet上の貼り付けたいセル上で右クリックして「�
 |  栃木  |  公表日,居住市区町村,年代,性別,退院済ﾌﾗｸﾞ,退院日,情報源1  | CSV | <a href="https://docs.google.com/spreadsheets/d/1aCIRyol3UncEtstWhT_Yw3I8mCbvpGQU5_HUKB_0JFA/export?format=csv&gid=0">URL</a> |
 |  富山  |  公表日,居住市区町村,年代,性別  | JSON | <a href="https://github.com/Terachan0117/covid19-toyama/blob/development/data/data.json">URL</a> |
 |  山梨  |  公表日,居住市区町村,年代,性別,退院済ﾌﾗｸﾞ  | JSON | <a href="https://github.com/covid19-yamanashi/covid19/blob/development/data/data.json">URL</a> |
+|  茨城  |  公表日,居住市区町村,年代,性別,退院済ﾌﾗｸﾞ  | JSON | <a href="https://github.com/a01sa01to/covid19-ibaraki/blob/development/data/data.json">URL</a> |
 
 ## 対応できない
 

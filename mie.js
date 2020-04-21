@@ -4,7 +4,7 @@ const axios = require('axios');
 const parse = require('csv-parse/lib/sync');
 const iconv = require('iconv-lite')
 
-const CSV_URL = 'https://www.pref.mie.lg.jp/common/content/000886460.csv';
+const CSV_URL = 'https://www.pref.mie.lg.jp/common/content/000886607.csv';
 const AGE_TRANSLATE = {'10歳未満': '0 - 9', '10代': '10 - 19', '20代': '20 - 29', '30代': '30 - 39', '40代': '40 - 49', '50代': '50 - 59', '60代': '60 - 69', '70代': '70 - 79', '80代': '80 - 89', '90代': '90 -'}
 const CSV_HEADER = ['都道府県症例番号','公表日', '居住市区町村','性別','年代','その他'];
 
