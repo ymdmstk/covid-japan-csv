@@ -13,7 +13,6 @@ const CSV_HEADER = ['都道府県症例番号','公表日', '居住市区町村'
 async function transform(){
     const html = await axios.get(HTML_URL);
     const path = html.data.match(/href="(.*\.csv)">県内/i);
-    console.log(path)
 
     const response = await axios.get(URL + path[1], { responseType: 'arraybuffer' });
     var body = iconv.decode(Buffer.from(response.data), 'windows-31j')

@@ -8,6 +8,7 @@ const mie = require('./mie');
 const shiga = require('./shiga');
 const kyoto = require('./kyoto');
 const ibaraki = require('./ibaraki');
+const osaka = require('./osaka');
 
 okinawa.transform();
 tochigi.transform();
@@ -19,3 +20,4 @@ mie.transform();
 shiga.transform();
 kyoto.transform();
 ibaraki.transform();
+osaka.transform();

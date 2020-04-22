@@ -22,6 +22,8 @@ Google SpreadSheet上の貼り付けたいセル上で右クリックして「�
 |  富山  |  公表日,居住市区町村,年代,性別  | JSON | <a href="https://github.com/Terachan0117/covid19-toyama/blob/development/data/data.json">URL</a> |
 |  山梨  |  公表日,居住市区町村,年代,性別,退院済ﾌﾗｸﾞ  | JSON | <a href="https://github.com/covid19-yamanashi/covid19/blob/development/data/data.json">URL</a> |
 |  茨城  |  公表日,居住市区町村,年代,性別,退院済ﾌﾗｸﾞ  | JSON | <a href="https://github.com/a01sa01to/covid19-ibaraki/blob/development/data/data.json">URL</a> |
+|  大阪  |  発症日,公表日,居住市区町村,年代,性別,症状 | Excel | <a href="http://www.pref.osaka.lg.jp/iryo/osakakansensho/corona.html">URL</a> のリンク先のExcel|
+
 
 ## 対応できない
 
