@@ -23,6 +23,7 @@ Google SpreadSheet上の貼り付けたいセル上で右クリックして「�
 |  山梨  |  公表日,居住市区町村,年代,性別,退院済ﾌﾗｸﾞ  | JSON | <a href="https://github.com/covid19-yamanashi/covid19/blob/development/data/data.json">URL</a> |
 |  茨城  |  公表日,居住市区町村,年代,性別,退院済ﾌﾗｸﾞ  | JSON | <a href="https://github.com/a01sa01to/covid19-ibaraki/blob/development/data/data.json">URL</a> |
 |  大阪  |  発症日,公表日,居住市区町村,年代,性別,症状 | Excel | <a href="http://www.pref.osaka.lg.jp/iryo/osakakansensho/corona.html">URL</a> のリンク先のExcel|
+|  岐阜  |  公表日,居住市区町村,年代,性別,ステータス,退院済ﾌﾗｸﾞ | CSV | <a href="https://data.gifu-opendata.pref.gifu.lg.jp/dataset/c11223-001">URL</a>|
 
 
 ## 対応できない
@@ -33,5 +34,3 @@ Google SpreadSheet上の貼り付けたいセル上で右クリックして「�
 | 神奈川 | Noがない | <a href="http://www.pref.kanagawa.jp/docs/t3u/dst/s0060925.html">URL<a>|
 | 愛媛 | Noがない | <a href="https://github.com/ehime-covid19/covid19/blob/master/data/data.json">URL</a> |
 | 島根 | Noがない | <a href="https://github.com/TaigaMikami/shimane-covid19/blob/shimane/data/data.json">URL</a> |
-| 岐阜 | Noがない | <a href="https://spreadsheets.google.com/feeds/list/15CHGPTLs5aqHXq38S1RbrcTtaaOWDDosfLqvey7nh8k/3/public/values">URL</a> |
-| 岐阜 | 情報が古い (4/8が最新) | <a href="https://data.gifu-opendata.pref.gifu.lg.jp/dataset/c11223-001">URL</a>|
