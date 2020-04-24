@@ -57,4 +57,6 @@ async function transform(){
     })
 }
 
+transform();
+
 module.exports = {transform};

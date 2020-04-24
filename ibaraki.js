@@ -15,7 +15,7 @@ function transform(){
         let patients = [CSV_HEADER];
         jsonObject.patients.data.forEach(patient => {
             let row = [];
-            row.push('10-' + patient.num);
+            row.push('8-' + patient.num);
             row.push(patient['リリース日'].replace(/\-/g,'/').substring(0, 10))
             row.push(patient['居住地']);
             row.push(constants.AGE_TRANSLATE[patient['年代']]);

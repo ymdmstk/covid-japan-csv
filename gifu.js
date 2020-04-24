@@ -18,8 +18,8 @@ async function transform(){
     let patients = [CSV_HEADER];
     records.forEach(patient => {
         let row = [];
-        row.push('24-' + patient.No);
-        row.push(patient['公表_年月日']);
+        row.push('21-' + patient.No);
+        row.push(patient['公表_年月日'].replace(/\-/g,'/'));
         row.push(patient['患者_居住地']);
         row.push(constants.AGE_TRANSLATE[patient['患者_年代']]);
         row.push(patient['患者_性別']);    

@@ -9,7 +9,7 @@ const shiga = require('./shiga');
 const kyoto = require('./kyoto');
 const ibaraki = require('./ibaraki');
 const osaka = require('./osaka');
-const gifu = require('gifu')
+const gifu = require('./gifu')
 
 okinawa.transform();
 tochigi.transform();

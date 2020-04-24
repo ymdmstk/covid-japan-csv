@@ -12,7 +12,6 @@ function transform(){
     ghdownload({user: 'covid19-yamanashi', repo: 'covid19', ref: 'development'}, 'yamanashi')
     .on('end', function() {
         const jsonObject = JSON.parse(fs.readFileSync('./yamanashi/data/data.json', 'utf8'));
-        console.log(jsonObject)
         let patients = [CSV_HEADER];
         jsonObject.patients.data.forEach(patient => {
             let row = [];
